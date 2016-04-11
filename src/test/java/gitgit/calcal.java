@@ -26,4 +26,11 @@ public class calcal {
 	cal.multi(10,20);
 	assertEquals(200,cal.getResult());
 	}
+	
+	@Test
+	public void testDiv() {
+	calc cal= new calc();
+	cal.div(100,20);
+	assertEquals(5,cal.getResult());
+	}
 }
