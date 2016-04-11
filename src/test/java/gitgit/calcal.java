@@ -33,4 +33,14 @@ public class calcal {
 	cal.div(100,20);
 	assertEquals(5,cal.getResult());
 	}
+
+	@Test
+	public void testInc() {
+	calc cal= new calc();
+	cal.inc(100);
+	assertEquals(100,cal.getResult());
+	cal.inc(200);
+	assertEquals(300,cal.getResult());
+	}
+	
 }

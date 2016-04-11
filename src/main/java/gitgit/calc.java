@@ -26,6 +26,10 @@ public class calc {
 
 	}
 	
+	public void inc(int x){
+		result +=x;
+	}
+	
 	public int getResult(){
 		return result;
 	}
