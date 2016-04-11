@@ -16,10 +16,14 @@ public class calc {
 	}
 	
 	public void div(int x, int y){
+<<<<<<< HEAD
 		if(y!=0)//분모가 0인경우
 		result =x/y;
 		else
 			System.out.println("분모가 0입니다");
+=======
+		result =x/y;
+>>>>>>> refs/heads/diverror-fix3
 	}
 	
 	public int getResult(){
