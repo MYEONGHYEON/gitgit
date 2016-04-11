@@ -19,4 +19,11 @@ public class calcal {
 	cal.sub(10,20);
 	assertEquals(-10,cal.getResult());
 	}
+	
+	@Test
+	public void testMulti() {
+	calc cal= new calc();
+	cal.multi(10,20);
+	assertEquals(200,cal.getResult());
+	}
 }
